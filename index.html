@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài demo website</title>
+
+    <!-- Font-awesome 4vs5 -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <header id="header" class="container-fluid bg-dark myheader">
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-sm  navbar-dark fixed-top myNav">
+            <div class="logo">
+                <a class="nav-link" href="./index.html">DemoWebsite</a>
+            </div>
+            <div class="my-open"><i class="fas fa-bars"></i></div>
+            <div class="my-close"><i class="fas fa-times"></i></i>
+            </div>
+            <div class="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Slide -->
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+                <li data-target="#carouselId" data-slide-to="3"></li>
+                <li data-target="#carouselId" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner myslide" role="listbox">
+                <div class="carousel-item active">
+                    <img src="./img/sieupham.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/loanthethanbinh.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/vebinhtinhtu.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/toithuong.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hactinh.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon previous" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- About -->
+    <section id="about" class="container-fluid about">
+        <div class="container p-5">
+            <div class="row ">
+                <div class="col-lg-12 wow bounceInDown">
+                    <h2 class="text-center font-weight-bolder pb-3">Đây là nội dung phần About</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="timeline">
+                        <div class="duongkedoc wow bounceIn delay-1s"></div>
+                        <li>
+                            <div class="timeline-img wow bounceInLeft"><img class="img-fluid" src="./img/yasuo.jpg" alt="yasuo"></div>
+                            <div class="timeline-content wow bounceInRight">
+                                <div class="timeline-title">
+                                    <h2>Yasuo siêu phẩm</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Yasuo là tên để chỉ một người con trai trong tiếng Nhật, ý nghĩa của nó khác nhau phụ thuộc vào cách sử dụng bộ Kanji. Yasuo không phải là tên thật của anh mà đó là tên được đặt khi anh gia nhập vào trường kiếm, và
+                                        đó là tên để ám chỉ bản ngã tự do, tự tại của Yasuo.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img wow bounceInLeft"><img class="img-fluid" src="./img/zed.jpg" alt="zed"></div>
+                            <div class="timeline-content wow bounceInRight">
+                                <div class="timeline-title">
+                                    <h2>Zed lôi kiếm</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Zed là ninja đầu tiên trong vòng 200 năm có thể giải mã những cấm thuật cổ xưa. Hắn chống lại tổ chức và sư phụ của mình, phá vỡ sự cân bằng và giới luật đã kiềm giữ hắn cả cuộc đời. Giờ đây, Zed hứa hẹn quyền lực cho
+                                        những kẻ nào tiếp nhận kiến thức của những chiếc bóng, và dĩ nhiên là kèm cả hạ sát những ai chối từ mình.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img wow bounceInLeft"><img class="img-fluid" src="./img/jax.jpg" alt="yasuo"></div>
+                            <div class="timeline-content wow bounceInRight">
+                                <div class="timeline-title">
+                                    <h2>Jax loạn thế thần binh</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Bậc Thầy Vũ Khí tự xưng Jax là một chiến binh và lính đánh thuê (thỉnh thoảng thôi) thần bí. Hắn nổi danh với sự dũng mãnh trong trận mạc và cả những câu châm chọc chua cay của mình. Với khả năng thông thạo gần như
+                                        mọi loại vũ khí, hắn thường chọn chiến đấu với một đồ vật tầm thường, chẳng hạn như một cây đèn đường, để đối thủ có thể đánh ngang cơ với mình.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img wow bounceInLeft"><img class="img-fluid" src="./img/ashe.jpg" alt="ashe"></div>
+                            <div class="timeline-content wow bounceInRight">
+                                <div class="timeline-title">
+                                    <h2>Ashe quán quân</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Ashe chỉ huy đội quân đông đảo nhất phương Bắc. Khắc kỷ, thông minh, và đầy lý tưởng, nhưng không thoải mái với vai trò thủ lĩnh cho lắm, cô dùng phép thuật trong dòng dõi của mình để làm chủ cây cung bằng Chân Băng.
+                                        Với niềm tin từ người dân rằng cô là tái sinh của nữ anh hùng trong thần thoại Avarosa, Ashe hy vọng thống nhất được Freljord bằng cách lấy lại đất đai của tổ tiên.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img wow bounceInLeft"><img class="img-fluid" src="./img/vayne.jpg" alt="vayne"></div>
+                            <div class="timeline-content wow bounceInRight">
+                                <div class="timeline-title">
+                                    <h2>Vayne siêu phẩm</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Shauna Vayne là một thợ săn quái vật đáng gờm của Demacia, người dành cả đời tìm kiếm và tiêu diệt con quỷ đã sát hại gia đình cô. Trang bị cây nỏ gắn trên cổ tay và một trái tim khao khát báo thù, cô chỉ thực sự hạnh
+                                        phúc khi hạ sát những kẻ thực hành hoặc những tạo vật của nghệ thuật hắc ám, tấn công từ trong bóng tối với một chùm mũi tên bạc.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="container-fluid news">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 p-3">
+                    <h2 class="text-center font-weight-bolder">Đây là nội dung phần News</h2>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-sm justify-content-center phanloaianh">
+                <ul class="navbar-nav menu-new">
+                    <li class="nav-item wow fadeInDown">
+                        <a class="nav-link" href="" data-danhmuc="all">Xem tất cả</a>
+                    </li>
+                    <li class="nav-item wow fadeInDown delay-0p3s">
+                        <a class="nav-link" href="" data-danhmuc="tocngan">Tóc ngắn</a>
+                    </li>
+                    <li class="nav-item wow fadeInDown delay-0p6s">
+                        <a class="nav-link" href="" data-danhmuc="aotrang">Áo trắng</a>
+                    </li>
+                    <li class="nav-item wow fadeInDown delay-0p9s">
+                        <a class="nav-link" href="" data-danhmuc="xinhxan">Xinh xắn</a>
+                    </li>
+                    <li class="nav-item wow fadeInDown delay-1p2s">
+                        <a class="nav-link" href="" data-danhmuc="cuoiduyen">Cười duyên</a>
+                    </li>
+                    <li class="nav-item wow fadeInDown delay-1p5s">
+                        <a class="nav-link" href="" data-danhmuc="goicam">Gợi cảm</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 timkiem-new">
+                    <input class="form-control tukhoa" list="danhsach" type="text" placeholder="Nhập từ khóa">
+                </form>
+                <datalist id="danhsach">
+                    <option value="aotrang"></option>
+                    <option value="cuoiduyen"></option>
+                    <option value="goicam"></option>
+                    <option value="kute"></option>
+                    <option value="xinhxan"></option>
+                    <option value="tocngan"></option>
+                    <option value="tocdai"></option>
+                </datalist>
+            </nav>
+
+            <section>
+                <h1 class="text-center badge-info p-3 pr-3 title wow zoomIn">Chỗ này toàn gái</h1>
+                <div class="nenxam">
+                    <div class="nenxamcon">
+                        <img src="" alt="add anh vao day">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li class="goicam">
+                            <a href="./img/1.jpg"><img src="./img/1.jpg" alt=""></a>
+                        </li>
+                        <li class="cuoiduyen tocngan">
+                            <a href="#"><img src="./img/2.jpg" alt=""></a>
+                        </li>
+                        <li class="goicam tocdai">
+                            <a href="#"><img src="./img/3.jpg" alt=""></a>
+                        </li>
+                        <li class="tocdai aotrang xinhxan">
+                            <a href="#"><img src="./img/4.jpg" alt=""></a>
+                        </li>
+                        <li class="aotrang tocngan">
+                            <a href="#"><img src="./img/5.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan goicam">
+                            <a href="#"><img src="./img/6.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan goicam">
+                            <a href="#"><img src="./img/7.jpg" alt=""></a>
+                        </li>
+                        <li class="tocdai xinhxan">
+                            <a href="#"><img src="./img/8.jpg" alt=""></a>
+                        </li>
+                        <li class="aotrang tocngan kute">
+                            <a href="#"><img src="./img/9.jpg" alt=""></a>
+                        </li>
+                        <li class="tocdai xinhxan">
+                            <a href="#"><img src="./img/10.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan aotrang kute">
+                            <a href="#"><img src="./img/11.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan cuoiduyen">
+                            <a href="#"><img src="./img/12.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan goicam">
+                            <a href="#"><img src="./img/13.jpg" alt=""></a>
+                        </li>
+                        <li class="goicam tocngan aotrang">
+                            <a href="#"><img src="./img/14.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan">
+                            <a href="#"><img src="./img/15.jpg" alt=""></a>
+                        </li>
+                        <li class="tocndai cuoiduyen">
+                            <a href="#"><img src="./img/16.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan goicam">
+                            <a href="#"><img src="./img/17.jpg" alt=""></a>
+                        </li>
+                        <li class="tocdai goicam aotrang">
+                            <a href="#"><img src="./img/18.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan aotrang kute">
+                            <a href="#"><img src="./img/19.jpg" alt=""></a>
+                        </li>
+                        <li class="tocngan aotrang cuoiduyen">
+                            <a href="#"><img src="./img/20.jpg" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="container-fluid portfolio">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 p-3">
+                    <h2 class="text-center font-weight-bolder wow bounceInDown">Đây là nội dung phần Protfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInLeft delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/yasuo.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Yasuo Siêu Phẩm</div>
+                        <div class="chunho">Kẻ bất dung thứ</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInLeft delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/ashe.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Ashe Quán Quân</div>
+                        <div class="chunho">Cung băng</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInLeft delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/zed.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Zed Lôi Kiếm</div>
+                        <div class="chunho">Chúa tể bóng tối</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInRight delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/riven.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Riven Vũ Khí Tối Thượng</div>
+                        <div class="chunho">Kẻ Lưu Đày</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInRight delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/jax.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Jax Loạn Thế Thần Binh</div>
+                        <div class="chunho">Bậc thầy vũ khí</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-4 wow bounceInRight delay-1s">
+                    <div class="layer">
+                        <img class="anh" src="img/vayne.jpg" alt="">
+                        <div class="xam"></div>
+                        <div class="gradient"></div>
+                        <div class="hinhvuong"></div>
+                        <div class="chuto">Vayne Siêu Phẩm</div>
+                        <div class="chunho">Thợ Săn Bóng Đêm</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pb-4">
+                    <h2 class="text-center font-weight-bolder text-uppercase wow bounceInDown">Đây là nội dung phần Contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form>
+                        <div class="row ">
+                            <div class="col-md-6 wow bounceInRight delay-1s">
+                                <div class="form-group ">
+                                    <input class="form-control thongtin" placeholder="Your Name * ">
+                                    <p class="help-block text-danger "></p>
+                                </div>
+                                <div class="form-group ">
+                                    <input class="form-control thongtin" placeholder="Your Email * ">
+                                    <p class="help-block text-danger "></p>
+                                </div>
+                                <div class="form-group ">
+                                    <input class="form-control thongtin" placeholder="Your Phone * ">
+                                    <p class="help-block text-danger "></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow bounceInLeft delay-1s">
+                                <div class="form-group ">
+                                    <textarea class="form-control thongtin" placeholder="Your Message * "></textarea>
+                                    <p class="help-block text-danger "></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center wow bounceIn delay-2s">
+                                <button class="btn btn-info btn-xl text-uppercase p-2">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container p-3">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-12">
+                <img class="img-footer" src="./img/garena.png" alt="">
+                <p style="text-align:justify">CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011 Cơ quan cấp: Phòng Đăng ký kinh doanh- Sở Kế hoạch và đầu tư TP Hà Nội Địa chỉ trụ sở chính: Tầng 29, tòa nhà Trung tâm Lotte
+                    Hà Nội, số 54, đường Liễu Giai, Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Điện thoại: 024 73053939</p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-12"></div>
+            <div class="col-sm-6 col-md-4 col-12"></div>
+        </div>
+        <hr class="bg-info">
+        <div class="copyright">Bản quyền thuộc về © Garena Online.</div>
+    </footer>
+
+
+    <!-- jquery & easing -->
+    <script src="./js/jquery-3.4.1.js"></script>
+    <!-- Thư viện giúp ảnh co dãn sao cho ko có khoảng trắng -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- <script src="./js/isotope.pkgd.min.js"></script> -->
+    <!-- thư viện easing hiệu ứng gia tốc -->
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <!-- Add thư viện hiệu ứng load trang -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
